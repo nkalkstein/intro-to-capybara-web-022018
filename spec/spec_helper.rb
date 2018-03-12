@@ -9,7 +9,7 @@ RSpec.configure do |config|
   config.include Capybara::DSL
   config.order = 'default'
 end
-
+ 
 # Define the application we're testing
 def app
   # Load the application defined in config.ru
